@@ -1,9 +1,11 @@
 {
   "name": "bankist-ts",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.0.2",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel --no-cache"
+    "start": "parcel --no-cache",
+    "build": "parcel build"
   },
   "devDependencies": {
     "@parcel/transformer-image": "^2.0.0-nightly.1981",
